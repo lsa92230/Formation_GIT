@@ -47,6 +47,10 @@ public class Test
       element.setAttribute("code",valeur1);
       element.setAttribute("texte",valeur2);
       parent.appendChild(element);
+	  
+	  //log
+	  System.out.println(element);
+	  
       return element;
    }
    
